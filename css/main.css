@@ -1,0 +1,29 @@
+.hidden {
+      display: none;
+}
+
+#container {
+      /* allows container to scale up to 1200px */
+      max-width: 1200px;
+      margin: 0 auto;
+}
+
+h1,h2 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+}
+
+
+
+
+
+@media screen and (min-width:640px) {
+      #column-con {
+            display: flex;
+            flex-direction: row;
+      }
+
+}
